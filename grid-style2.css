@@ -1,0 +1,33 @@
+.container > div {
+  background-color: #eee;
+  padding: 10px
+}
+
+.container > div:nth-child(odd) {
+  background: #aaa;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  height: 250px;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.nested {
+  background: blue;
+}
+
+.box2 {
+  grid-column: 2 / span 2;
+}
