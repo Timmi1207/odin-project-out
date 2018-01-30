@@ -1,0 +1,109 @@
+main {
+  display: grid;
+  grid-template-columns: 150px 300px 150px;
+  grid-template-rows: repeat(3, 300px);
+  grid-gap: 10px;
+}
+
+.element {
+  background-color: LawnGreen;
+}
+
+.box1, .box3, .box7, .box8, .box9 {
+  background-color: white;
+}
+
+.box2 {
+  height: 46%;
+  position: relative;
+  top: 54%;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+}
+
+.left-antenna {
+  background-color: LawnGreen;
+  height: 100px;
+  width: 7px;
+  border-radius: 7px;
+  display: inline-block;
+  position: relative;
+  left: 70px;
+  bottom: 55px;
+  transform: rotate(330deg);
+}
+
+.right-antenna {
+  background-color: LawnGreen;
+  height: 100px;
+  width: 7px;
+  border-radius: 7px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 70px;
+  bottom: 55px;
+  transform: rotate(30deg);
+}
+
+.left-eye {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  display: inline-block;
+  position: relative;
+  left: 70px;
+}
+
+.right-eye {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+.box4 {
+  width: 45%;
+  justify-self: end;
+  height: 80%;
+  border-radius: 30px;
+}
+
+.box5 {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.box6 {
+  width: 45%;
+  justify-self: start;
+  height: 80%;
+  border-radius: 30px;
+}
+
+.left-leg {
+  background-color: LawnGreen;
+  width: 65px;
+  height: 150px;
+  border-radius: 30px;
+  position: relative;
+  Left: 50px;
+  bottom: 45px;
+  display: inline-block;
+}
+
+.right-leg {
+  background-color: LawnGreen;
+  width: 65px;
+  height: 150px;
+  border-radius: 30px;
+  position: relative;
+  right: 50px;
+  bottom: 45px;
+  float: right;
+  display: inline-block;
+}
